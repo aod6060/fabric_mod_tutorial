@@ -19,11 +19,13 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      	"com.derf.fabric.tutorial.Loader"
+    ],
+    "client": [
+    	"com.derf.fabric.tutorial.Loader"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {

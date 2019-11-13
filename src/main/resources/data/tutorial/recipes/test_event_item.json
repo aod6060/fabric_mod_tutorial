@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"e"
+	],
+	"key": {
+		"e": {
+			"item": "tutorial:example_item"
+		}
+	},
+	"result": {
+		"item": "tutorial:test_event_item"
+	}
+}

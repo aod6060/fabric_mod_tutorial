@@ -10,8 +10,12 @@ public final class ModItems {
 	
 	public static Item EXAMPLE_ITEM = new ModItemExample(new Item.Settings().group(Loader.ITEM_GROUP)); 
 	
+	public static Item TEST_EVENT_ITEM = new ModItemEventTest(new Item.Settings().group(Loader.ITEM_GROUP).maxCount(1));
+	
+	
 	public static void onInitialize() {
 		register(EXAMPLE_ITEM, "example_item");
+		register(TEST_EVENT_ITEM, "test_event_item");
 	}
 	
 	public static void onClientInitialize() {

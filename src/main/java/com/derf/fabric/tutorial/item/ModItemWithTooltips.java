@@ -58,4 +58,6 @@ public class ModItemWithTooltips extends Item {
 		ModTooltipWithStyle tooltip = new ModTooltipWithStyle(translatable, style);
 		this.addTooltip(tooltip);
 	}
+	
+	
 }

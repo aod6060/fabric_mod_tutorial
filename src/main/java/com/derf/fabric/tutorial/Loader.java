@@ -7,7 +7,6 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 
 public class Loader implements ModInitializer, ClientModInitializer {
@@ -16,7 +15,7 @@ public class Loader implements ModInitializer, ClientModInitializer {
 	
 	public static ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(
 			new Identifier(MODID, "general"), 
-			() -> new ItemStack(Items.ENCHANTED_GOLDEN_APPLE));
+			() -> new ItemStack(ModItems.EXAMPLE_ITEM, 64));
 	
 	@Override
 	public void onInitializeClient() {

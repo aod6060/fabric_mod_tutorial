@@ -1,4 +1,11 @@
 {
 	"itemGroup.tutorial.general": "Tutorial Mod",
-	"item.tutorial.example_item": "Example Item"
+	"item.tutorial.example_item": "Example Item",
+	"item.tutorial.example_item.tooltip.red": "1) Red Tooltip",
+	"item.tutorial.example_item.tooltip.green": "2) Green Tooltip",
+	"item.tutorial.example_item.tooltip.blue": "3) Blue Tooltip",
+	"item.tutorial.example_item.tooltip.bold": "4) Bold tooltip",
+	"item.tutorial.example_item.tooltip.italic": "5) Italic tooltip",
+	"item.tutorial.example_item.tooltip.underline": "6) Underline tooltip",
+	"item.tutorial.example_item.tooltip.strike": "7) Strike tooltip"
 }

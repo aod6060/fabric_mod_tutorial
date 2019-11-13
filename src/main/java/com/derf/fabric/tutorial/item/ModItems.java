@@ -8,7 +8,7 @@ import net.minecraft.util.registry.Registry;
 
 public final class ModItems {
 	
-	public static Item EXAMPLE_ITEM = new Item(new Item.Settings().group(Loader.ITEM_GROUP));
+	public static Item EXAMPLE_ITEM = new ModItemExample(new Item.Settings().group(Loader.ITEM_GROUP)); 
 	
 	public static void onInitialize() {
 		register(EXAMPLE_ITEM, "example_item");
